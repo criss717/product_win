@@ -35,8 +35,8 @@ export const FilterBar: React.FC<FilterBarProps> = ({
 
   const warehouses: { id: WarehouseFilter; label: string; icon: React.ComponentType<{ className?: string }> }[] = [
     { id: 'Todos', label: 'Todos los Almacenes', icon: Globe },
-    { id: 'China (Nuevo MCP)', label: '🇨🇳 Almacén China (Nuevo MCP • 50 Top)', icon: Plane },
-    { id: 'Europa (Nuevo MCP)', label: '🇪🇺 Almacenes Europa (Nuevo MCP • 12 Top)', icon: Building2 },
+    { id: 'China (Nuevo MCP)', label: '🇨🇳 Almacén China (Nuevo MCP • 25 Top)', icon: Plane },
+    { id: 'Europa (Nuevo MCP)', label: '🇪🇺 Almacenes Europa (Nuevo MCP • 10 Top)', icon: Building2 },
     { id: 'China (Global 6-9d)', label: '🇨🇳 Almacén China (Catálogo Base)', icon: Plane },
     { id: 'Almacenes Locales Europa', label: '🇪🇺 Almacenes Europa (Catálogo Base)', icon: Building2 }
   ];
